@@ -51,31 +51,14 @@ p {
     font-weight: 700;
   }
 
-
-
   
  /* FOOTER */
 
-.conteneur {
-    display: flex;
-    justify-content: center;
-    position: relative;
-  }
-  
-  .contenu01 {
-    position: relative;
-    z-index: 2;
+  .contenuFooter {
     height: 60px !important;
     width: 100%;
     align-content: center;
     text-align: center;
     font-size: 16px;
     background-color: #ffffff !important;
-  }
- 
-  .contenu02 {
-    position: absolute;
-    z-index: 1;
-    align-content: center;
-    bottom: 60px;
   }

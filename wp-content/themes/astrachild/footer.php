@@ -23,10 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <!-- DEBUT CODE AJOUTE -->
 
 <footer>
-	<div class="conteneur">
-		<div class="contenu01"><a href="#">Mentions légales</a></div>
-		<div class="contenu02"><img src="../Planty2024/wp-content/uploads/2024/08/Canettes.png"/> </div>
-	</div>
+	<div class="contenuFooter"><a href="#">Mentions légales</a></div>
 </footer>
 
 <!-- FIN CODE AJOUTE -->
