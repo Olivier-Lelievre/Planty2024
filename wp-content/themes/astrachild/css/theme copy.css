@@ -78,7 +78,6 @@ li.menu-item-52 a:hover {
   border-color: #ffffff;
   background-color: #ffffff;
   color: #000000;
-  font-size: 16px;
   width: 383px;
   height: 71px;
   margin-top: 6px;
@@ -95,7 +94,6 @@ li.menu-item-52 a:hover {
 
 .wpcf7-form label {
   font-size: 20px;
-  color:#ffffff;
 }
 
 .wpcf7-submit {
@@ -108,12 +106,74 @@ li.menu-item-52 a:hover {
 
 
 
-/* Formulaire Commandes - Fruits */
+/* Zone Img Fruits*/
 
-.centre-formulaire {
+.conteneurAllFormulaireZone1 {
+  width: 860px;
+  margin: auto;
+}
+
+.conteneurFormulaireZone1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+
+}
+
+.conteneurFruit {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.z-conteneurFruit {
+  position: relative;
+}
+
+.z-TextFruit {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  color: #ffffff !important;
+}
+
+.z-FondFruit {
+  position: relative;
+  z-index: 1;
+}
+
+.StrawberryField {
+  width: 75px !important;
+}
+
+
+/* Zone Informations*/
+
+.conteneurFormulaireZone2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.form-bas-filet {
+  border-left: #ffffff 1px solid;
+  padding-left: 40px;
+}
+
+/*.entry-content p {
+  margin-bottom: 0 !important;
+}*/
+
+
+
+/* test*/
+
+
+.centre-formulaire {
+  display: flex;
+  justify-content: center;
 }
 
 .form-haut {
@@ -121,21 +181,14 @@ li.menu-item-52 a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-top: #ffffff 1px solid;
-  border-bottom: #ffffff 1px solid;
-  margin-top: 50px;
-}
-
-.form-haut h3 {
-  color:#ffffff;
-  margin-top: 40px;
+  border-top: #000000 1px solid;
+  border-bottom: #000000 1px solid;
 }
 
 .fruits {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 18px;
   
 }
 
@@ -153,12 +206,11 @@ li.menu-item-52 a:hover {
   justify-content: center;
 }
 
-.fruit h4 {
+.fruit h2 {
   position: absolute;
   z-index: 2;
   color: #ffffff;
   text-align: center;
-  font-weight: 800;
 }
 
 .fruit img {
@@ -166,32 +218,3 @@ li.menu-item-52 a:hover {
   z-index: 1;
   width: 194px;
 }
-
-.StrawberryField {
-  width: 50px !important;
-  height: 58px !important;
-}
-
-
-/* Formulaire Commandes - Champs de texte */
-
-.form-bas {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 50px;
-  gap: 43px;
-}
-
-.form-bas h3 {
-  color:#ffffff;
-}
-
-.form-bas-filet {
-  border-left: #ffffff 1px solid;
-  padding-left: 43px;
-}
-
-/*.entry-content p {
-  margin-bottom: 0 !important;
-}*/
