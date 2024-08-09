@@ -68,6 +68,17 @@ li.menu-item-52 a:hover {
 
 
 
+/* ACCUEIL */
+
+#bt-commander {
+  width: 198px !important;
+  height: 55px;
+}
+
+
+
+
+
 /* FORMULAIRES */
 
 
@@ -105,6 +116,17 @@ li.menu-item-52 a:hover {
   height: 55px;
 }
 
+.namefield {
+  color: #000000 !important;
+}
+
+.mailfield {
+  color: #000000 !important;
+}
+
+.messagefield {
+  color: #000000 !important;
+}
 
 
 
@@ -167,9 +189,11 @@ li.menu-item-52 a:hover {
   width: 194px;
 }
 
-.StrawberryField {
-  width: 50px !important;
-  height: 58px !important;
+.StrawberrysField {
+  width: 39px !important;
+  height: 56px !important;
+  padding: 0 !important;
+  text-align: center;
 }
 
 
@@ -180,6 +204,7 @@ li.menu-item-52 a:hover {
   flex-direction: row;
   justify-content: center;
   margin-top: 50px;
+  margin-bottom: 25px;
   gap: 43px;
 }
 
@@ -192,6 +217,15 @@ li.menu-item-52 a:hover {
   padding-left: 43px;
 }
 
+.form-bas-filet p {
+  margin: 0 !important;
+}
+
+.form-bas-sansfilet p {
+  margin: 0 !important;
+}
+
+
 /*.entry-content p {
   margin-bottom: 0 !important;
-}*/
+}
